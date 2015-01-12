@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C36BB5FD-B8A1-4AE8-B9E5-D5F4C1713EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7A07D60-6B3D-487A-ABEE-FD344CF160EA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rnsx.Stockify.Business", "Rnsx.Stockify.Business\Rnsx.Stockify.Business.csproj", "{0BB000A2-5655-4ABF-9E96-F0DF07339DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rnsx.Stockify.Business.UnitTests", "Rnsx.Stockify.Business.UnitTests\Rnsx.Stockify.Business.UnitTests.csproj", "{3C94ED75-6FD8-415C-A197-26887A4B4737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB000A2-5655-4ABF-9E96-F0DF07339DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB000A2-5655-4ABF-9E96-F0DF07339DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB000A2-5655-4ABF-9E96-F0DF07339DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB000A2-5655-4ABF-9E96-F0DF07339DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C94ED75-6FD8-415C-A197-26887A4B4737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C94ED75-6FD8-415C-A197-26887A4B4737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C94ED75-6FD8-415C-A197-26887A4B4737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C94ED75-6FD8-415C-A197-26887A4B4737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BB000A2-5655-4ABF-9E96-F0DF07339DB0} = {C36BB5FD-B8A1-4AE8-B9E5-D5F4C1713EA8}
+		{3C94ED75-6FD8-415C-A197-26887A4B4737} = {C36BB5FD-B8A1-4AE8-B9E5-D5F4C1713EA8}
+	EndGlobalSection
+EndGlobal
